@@ -1,10 +1,303 @@
 <!DOCTYPE html>
 <html lang="en">
-  <title>AlphaSheets</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../css/tachyons.css">
-  <link href="https://fonts.googleapis.com/css?family=Quantico|Source+Sans+Pro" rel="stylesheet">
-  <body>
 
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>AlphaSheets</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quantico|Source+Sans+Pro" rel="stylesheet">
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <style>
+      .borderSelect:hover {
+        border-width: 3px;
+        border-color: #1B3355;
+      }
+
+      .borderSelect>.doh {
+        transition: all 1s;
+      }
+
+      .borderSelect:hover>.doh {
+        opacity: 1;
+      }
+
+      @media only screen and (max-width: 60em) {
+        .doh {
+          opacity: 1;
+        }
+      }
+
+      .innerCircle {
+        height: 90%;
+        width: 90%;
+        top: 5%;
+        left: 5%;
+      }
+
+      .ring {
+        transition: all 1s;
+      }
+
+      .ring:hover {
+        background-color: #011C43;
+      }
+
+    </style>
+
+  </head>
+
+  <body class='quantico'>
+    <header class="bg-navy w-100">
+      <nav class="dt w-100 center pv3">
+        <div class="dtc v-mid ">
+          <a href="/" class=" w2 pa1 hover-white no-underline white-70 v-mid mh5">
+            <img src="../images/logo.svg" alt="Alphasheets Logo" class='dib h2 v-mid'>
+            <p class='dn dn-m dib-ns f2 pl1 v-mid ma0'>AlphaSheets</p>
+          </a>
+        </div>
+        <div class="dtc v-mid tr">
+          <a class="f6 fw4 hover-white no-underline white-70 dn dn-m dib-ns pv2 ph3 v-mid " href="/">My Workbooks</a>
+          <a class="f6 fw4 hover-white no-underline white-70 dib ml2 pv2 ph3 ba ttu v-mid mh5" href="/">Sign Out</a>
+        </div>
+      </nav>
+    </header>
+
+
+    <section class="tc pa3 ph5-ns bg-patina w-100 dt" id='errorBox'>
+
+      <p class="lh-copy measure-wide center offWhite dib sourceSans">
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book <span class="link dim b underline white">Click Here</span>.
+      </p>
+      <div class='dtc-ns v-mid dib ma4 grow-large'>
+        <img src="../images/cancel.svg" alt="Close" class='dim' id='closeErrorBox'>
+      </div>
+
+    </section>
+
+
+    <section class="tc pa3 ph5-ns mt5">
+      <h1 class="mt0">My Workbooks</h1>
+      <p class="lh-copy measure center sourceSans">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      </p>
+
+
+      <ul class="list pa3 pa5-ns tc db mw8 center">
+        <li class="w5 bg-white br3 mv3 mh3 ba b--black-10 dib link borderSelect relative">
+          <div class='ma2-ns ma3 o-0 doh'>
+            <div class='fl ml1'>
+              <img src="../images/bin.svg" id='deleteProject' class="dim grow-large" title="Delete">
+            </div>
+            <div class='fr'>
+              <img src="../images/edit.svg" class="dim grow-large" title="Edit">
+            </div>
+          </div>
+          <div class="tc ma3 ma4-ns">
+            <div class="tint">
+              <img src="../images/project1.png" class="mv2 w-100" title="Project Name" />
+            </div>
+            <hr class="mw3 bb bw1 b--black-10">
+            <p class="f4 truncate mv4">Regular title</p>
+          </div>
+
+          <div class='w5 h5 z-1 bg bg-patina absolute absolute--fill w-100 h-100 dn' id='deleteBox'>
+            <p class='sourceSans offWhite dib mt4'>Are you sure <br/> you want to delete</p>
+            <p class="f4 truncate ma4 offWhite">Long Named Something</p>
+
+            <div class='tc mt5'>
+              <a class="f6 fw4 hover-white no-underline white-70 dib pv2 ph3 v-mid " href="/">Cancel</a>
+              <a class="f6 fw4 hover-white no-underline white-70 dib pv2 ph3 ba ttu v-mid hover-bg-white hover-red" href="/">delete</a>
+
+            </div>
+          </div>
+        </li>
+        <li class="w5 bg-white br3 mv3 mh3 ba b--black-10 dib link borderSelect relative">
+          <div class='ma2-ns ma3 o-0 doh'>
+            <div class='fl ml1'>
+              <img src="../images/bin.svg" class="dim grow-large" title="Delete">
+            </div>
+            <div class='fr'>
+              <img src="../images/edit.svg" class="dim grow-large" title="Edit">
+            </div>
+          </div>
+          <div class="tc ma3 ma4-ns">
+            <div class="tint">
+              <img src="../images/project2.png" class="mv2 w-100" title="Project Name" />
+            </div>
+            <hr class="mw3 bb bw1 b--black-10">
+            <p class="f4 truncate mv4">This is a very long title</p>
+          </div>
+        </li>
+        <li class="w5 bg-white br3 mv3 mh3 ba b--black-10 dib link borderSelect relative">
+          <div class='ma2-ns ma3 o-0 doh'>
+            <div class='fl ml1'>
+              <img src="../images/bin.svg" class="dim grow-large" title="Delete">
+            </div>
+            <div class='fr'>
+              <img src="../images/edit.svg" class="dim grow-large" title="Edit">
+            </div>
+          </div>
+          <div class="tc ma3 ma4-ns">
+            <div class="tint">
+              <img src="../images/project3.png" class="mv2 w-100 " title="Project Name" />
+            </div>
+            <hr class="mw3 bb bw1 b--black-10">
+            <p class="f4 truncate mv4">Regular title</p>
+          </div>
+        </li>
+        <li class="w5 bg-white br3 mv3 mh3 ba b--black-10 dib link borderSelect relative">
+          <div class='ma2-ns ma3 o-0 doh'>
+            <div class='fl ml1'>
+              <img src="../images/bin.svg" class="dim grow-large" title="Delete">
+            </div>
+            <div class='fr'>
+              <img src="../images/edit.svg" class="dim grow-large" title="Edit">
+            </div>
+          </div>
+          <div class="tc ma3 ma4-ns">
+            <div class="tint">
+              <img src="../images/project1.png" class="mv2 w-100" title="Project Name" />
+            </div>
+            <hr class="mw3 bb bw1 b--black-10">
+            <p class="f4 truncate mv4">Regular title</p>
+          </div>
+        </li>
+
+
+
+        <li class="w5 bg-white br3 mv3 mh3 dib link">
+          <div class="tc">
+            <div class="dib">
+              <div class="br-100 h4 w4 b-blue ba relative ma3 ring ">
+                <div class="bg-navy br-100 innerCircle relative dt">
+                  <div class='dtc v-mid'>
+                    <img src="../images/add.svg" class='dim grow-large' title="Add New Workbook">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="f4 truncate mv4">New Workbook</p>
+          </div>
+        </li>
+
+
+
+
+      </ul>
+    </section>
+
+    <section class="bg-navy pt5">
+
+      <header class="w-75 pv3 mb3 white center">
+        <h2 class="lh-title f2 b mt0 offWhite ">
+      Sample Workbooks
+    </h2>
+        <p class="lh-copy measure-wide sourceSans">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        </p>
+      </header>
+      <ul class="list pa3 pa5-ns mv0 tc">
+
+        <li class="bg-white-10 br3 pa3 pa4-ns mv3 mh2  ba b--black-10 dib link hover-bg-navy pointer">
+          <div class="tl">
+            <img src="../images/chart.svg" class="h3 w3 " title="Project Name">
+            <h1 class="f4 offWhite sourceSans">Financial Modelling</h1>
+
+          </div>
+          <p class="lh-copy measure-narrow offWhite tl f6 black-70 h4 sourceSans">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          </p>
+        </li>
+
+        <li class=" h6 bg-white-10 br3 pa3 pa4-ns w6 mv3 mh2 ba b--black-10 dib link hover-bg-navy pointer">
+          <div class="tl">
+            <img src="../images/dna.svg" class="h3 w3 " title="Project Name">
+            <h1 class="f4 offWhite sourceSans">Computational Modelling</h1>
+
+          </div>
+          <p class="lh-copy measure-narrow offWhite tl f6 black-70 h4 sourceSans">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          </p>
+        </li>
+
+        <li class="bg-white-10 br3 pa3 pa4-ns mv3 mh2  ba b--black-10 dib link hover-bg-navy pointer">
+          <div class="tl">
+            <img src="../images/pulse.svg" class="h3 w3 " title="Project Name">
+            <h1 class="f4 offWhite sourceSans">Pharma</h1>
+
+          </div>
+          <p class="lh-copy measure-narrow offWhite tl f6 black-70 h4 sourceSans">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          </p>
+        </li>
+
+        <li class=" h6 bg-white-10 br3 pa3 pa4-ns w6 mv3 mh2 ba b--black-10 dib link hover-bg-navy pointer">
+          <div class="tl">
+            <img src="../images/rocket.svg" class="h3 w3 " title="Project Name">
+            <h1 class="f4 offWhite sourceSans">Startup Modelling</h1>
+
+          </div>
+          <p class="lh-copy measure-narrow offWhite tl f6 black-70 h4 sourceSans">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          </p>
+        </li>
+
+        <li class="bg-white-10 br3 pa3 pa4-ns mv3 mh2  ba b--black-10 dib link hover-bg-navy pointer">
+          <div class="tl">
+            <img src="../images/pie.svg" class="h3 w3 " title="Project Name">
+            <h1 class="f4 offWhite sourceSans">Business Intelligence</h1>
+
+          </div>
+          <p class="lh-copy measure-narrow offWhite tl f6 black-70 h4 sourceSans">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          </p>
+        </li>
+
+        <li class="bg-white-10 br3 pa3 pa4-ns mv3 mh2  ba b--black-10 dib link hover-bg-navy pointer">
+          <div class="tl">
+            <img src="../images/pc.svg" class="h3 w3 " title="Project Name">
+            <h1 class="f4 offWhite sourceSans">Programmer</h1>
+
+          </div>
+          <p class="lh-copy measure-narrow offWhite tl f6 black-70 h4 sourceSans">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          </p>
+        </li>
+      </ul>
+    </section>
+    <footer class='h-100 w-100 bg-navy'>
+      <div class="ph3 ph4-ns pv6 bg-black-70  white">
+
+        <section class="mw5 mw7-ns center pa3 ph5-ns tc">
+          <h1 class="mt0">Want to Know More?</h1>
+          <p class="lh-copy measure center sourceSans">
+            We are happy to Answer any questions
+          </p>
+          <a class="f6 fw4 hover-white no-underline white-70 dib ma4 ml2 pv2 ph3 ba ttu hover-bg-white hover-navy" href="/">contact</a>
+        </section>
+        <div class="mt5 tc">
+          <a href="/language/" title="Language" class="f6 dib pr2 mid-gray dim ttu">jobs</a>
+          <a href="/language/" title="Language" class="f6 dib pr2 mid-gray dim ttu">angel list</a>
+          <a href="/privacy/" title="Privacy" class="f6 dib pl2 mid-gray dim ttu">term of service</a>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <script>
+      document.getElementById("closeErrorBox").onclick = function() {
+        document.getElementById("errorBox").style.display = 'none';
+      };
+
+      document.getElementById('deleteProject').addEventListener('click', function(e) {
+          e.preventDefault();
+          document.getElementById('deleteBox').classList.toggle('dn');
+      });
+
+    </script>
   </body>
+
 </html>

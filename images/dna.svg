@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="49px" height="78px" viewBox="0 0 49 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>dna</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="9" cy="9" r="9"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="18" height="18" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <circle id="path-3" cx="9" cy="9" r="9"></circle>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="18" height="18" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <circle id="path-5" cx="9" cy="9" r="9"></circle>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="18" height="18" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <circle id="path-7" cx="9" cy="9" r="9"></circle>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="18" height="18" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+    </defs>
+    <g id="Index" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="collection" transform="translate(-7870.000000, -11665.000000)">
+            <g id="demos" transform="translate(6445.000000, 10622.000000)">
+                <g id="Group-35">
+                    <g id="dna" transform="translate(1425.000000, 1043.000000)">
+                        <g id="noun_471868_cc" transform="translate(6.000000, 9.000000)" fill="#FFFFFF">
+                            <g id="Noun_Project_100Icon_1px_grid" transform="translate(18.500000, 30.500000) rotate(-270.000000) translate(-18.500000, -30.500000) translate(-12.000000, 12.000000)">
+                                <path d="M10.5,37 C14.8502504,37.0018295 19.0229937,35.2751771 22.1,32.2 L44.5,9.9 C45.8341727,8.59281666 47.4900622,7.66137883 49.3,7.2 L58.6,7.1 C59.7317078,5.96761916 61.302691,3.6270325 58.6,1.3 L49.9,1.3 C46.3107846,1.73722403 42.9688203,3.3554383 40.4,5.9 L18.1,28.1 C16.0794826,30.1025354 13.3446992,31.2180392 10.5,31.2 L3.6,31.2 C1.99837429,31.2000001 0.700000173,32.4983743 0.700000173,34.1 C0.700000173,35.7016257 1.99837429,36.9999999 3.6,37 L10.5,37 Z" id="Shape"></path>
+                                <path d="M3.6,6.7 L10.5,6.7 C13.3446992,6.68196081 16.0794826,7.79746458 18.1,9.8 L22.5,14.2 C23.22616,14.962468 24.3085456,15.2714362 25.3277813,15.0071933 C26.3470171,14.7429505 27.1429505,13.9470171 27.4071933,12.9277813 C27.6714362,11.9085456 27.362468,10.82616 26.6,10.1 L22.2,5.7 C19.0821301,2.63682017 14.8704867,0.944963426 10.5,1 L3.6,1 C2.22919762,1.25789856 1.23619026,2.45514845 1.23619026,3.85 C1.23619026,5.24485155 2.22919762,6.44210144 3.6,6.7 L3.6,6.7 Z" id="Shape"></path>
+                                <path d="M58.7,31 L49.4,31 C47.5900622,30.5386212 45.9341727,29.6071833 44.6,28.3 L39,22.7 C37.8601504,21.614429 36.0624316,21.6363491 34.9493903,22.7493903 C33.8363491,23.8624316 33.814429,25.6601504 34.9,26.8 L40.5,32.4 C43.0688203,34.9445617 46.4107846,36.562776 50,37 L58.7,37 C59.5710921,36.179854 61.667164,33.7379689 58.7,31 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                        <g id="Group-32" transform="translate(17.000000, 52.000000)" fill="#FFFFFF">
+                            <g id="Group-28" transform="translate(0.000000, 4.000000)">
+                                <path d="M9,3 L9,0 L1.78905272,0 C0.789515476,0 0.00416478284,0.647058824 0.00416478284,1.47058824 C-0.0672307348,2.35294118 0.789515476,3 1.78905272,3 L9,3 Z" id="Shape"></path>
+                                <path d="M14,3 L14,0 L6.78905272,0 C5.78951548,0 5.00416478,0.647058824 5.00416478,1.47058824 C4.93276927,2.35294118 5.78951548,3 6.78905272,3 L14,3 Z" id="Shape-Copy-22" transform="translate(9.500000, 1.500000) scale(-1, 1) translate(-9.500000, -1.500000) "></path>
+                            </g>
+                        </g>
+                        <g id="Group-28-Copy" transform="translate(17.000000, 20.000000)" fill="#FFFFFF">
+                            <g id="Group-30">
+                                <path d="M9,3 L9,0 L1.78905272,0 C0.789515476,0 0.00416478284,0.647058824 0.00416478284,1.47058824 C-0.0672307348,2.35294118 0.789515476,3 1.78905272,3 L9,3 Z" id="Shape"></path>
+                                <path d="M14,3 L14,0 L6.78905272,0 C5.78951548,0 5.00416478,0.647058824 5.00416478,1.47058824 C4.93276927,2.35294118 5.78951548,3 6.78905272,3 L14,3 Z" id="Shape-Copy-22" transform="translate(9.500000, 1.500000) scale(-1, 1) translate(-9.500000, -1.500000) "></path>
+                            </g>
+                        </g>
+                        <g id="Group-8-Copy">
+                            <rect id="Rectangle-10" fill="#294061" x="4" y="2" width="12" height="12"></rect>
+                            <use id="Oval-2-Copy" stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="10" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="Group-8-Copy-2" transform="translate(31.000000, 0.000000)">
+                            <rect id="Rectangle-10" fill="#294061" x="4" y="2" width="12" height="12"></rect>
+                            <use id="Oval-2-Copy" stroke="#FFFFFF" mask="url(#mask-4)" stroke-width="10" xlink:href="#path-3"></use>
+                        </g>
+                        <g id="Group-8-Copy-3" transform="translate(31.000000, 60.000000)">
+                            <rect id="Rectangle-10" fill="#294061" x="4" y="2" width="12" height="12"></rect>
+                            <use id="Oval-2-Copy" stroke="#FFFFFF" mask="url(#mask-6)" stroke-width="10" xlink:href="#path-5"></use>
+                        </g>
+                        <g id="Group-8-Copy-5" transform="translate(0.000000, 60.000000)">
+                            <rect id="Rectangle-10" fill="#294061" x="4" y="2" width="12" height="12"></rect>
+                            <use id="Oval-2-Copy" stroke="#FFFFFF" mask="url(#mask-8)" stroke-width="10" xlink:href="#path-7"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
