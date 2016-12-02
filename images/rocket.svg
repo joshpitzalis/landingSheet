@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="65px" viewBox="0 0 64 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>rocket</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="9" cy="55" r="9"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="18" height="18" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Index" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="collection" transform="translate(-7173.000000, -12332.000000)">
+            <g id="demos" transform="translate(6445.000000, 10622.000000)">
+                <g id="Group-35">
+                    <g id="Group-29" transform="translate(728.000000, 1710.000000)">
+                        <g id="rocket">
+                            <use id="Oval-2-Copy" stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="10" xlink:href="#path-1"></use>
+                            <circle id="eye" fill="#FFFFFF" transform="translate(50.818340, 12.818340) rotate(-45.000000) translate(-50.818340, -12.818340) " cx="50.81834" cy="12.81834" r="2.69997411"></circle>
+                            <path d="M61.35,0 C60.55,0 41.85,0.4 29.75,12.5 C26.45,15.8 23.95,19.7 22.15,23.6 C17.05,21.5 11.05,22.6 7.05,26.7 L0.75,33 C-0.25,34 -0.25,35.6 0.75,36.6 C1.75,37.6 3.35,37.6 4.35,36.6 C7.15,33.8 12.25,33.8 15.05,36.6 L18.55,40.1 L18.55,40.1 L23.75,45.3 C23.75,45.3 23.85,45.4 23.95,45.4 C23.95,45.4 23.95,45.5 24.05,45.5 L27.55,49.1 C30.55,52.1 30.55,56.9 27.55,59.8 C26.55,60.8 26.55,62.4 27.55,63.4 C28.05,63.9 28.65,64.1 29.35,64.1 C29.95,64.1 30.65,63.9 31.15,63.4 L37.45,57.1 C41.55,53 42.65,46.9 40.45,41.7 C44.25,39.9 48.15,37.5 51.45,34.2 C63.45,22.1 63.85,3.4 63.85,2.6 C63.85,1.9 63.55,1.3 63.15,0.8 C62.65,0.3 61.95,0 61.35,0 L61.35,0 Z M11.55,29.4 C14.05,27.5 17.35,27.1 20.25,28.3 C19.65,30 19.25,31.6 18.85,33.2 L18.85,33.2 L18.55,33 C16.65,31.1 14.25,29.8 11.55,29.4 L11.55,29.4 Z M34.75,52.6 C34.35,50 33.15,47.6 31.25,45.6 L31.05,45.4 C32.75,45 34.35,44.5 35.95,44 C36.95,46.8 36.55,50.1 34.75,52.6 L34.75,52.6 Z M47.85,30.6 C41.55,36.9 32.95,39.6 26.45,40.8 L23.15,37.5 C23.75,34.1 24.65,30.9 25.75,28 L25.75,28 C27.35,23.8 29.75,19.6 33.25,16.1 C41.25,8.1 53.15,5.9 58.55,5.3 C58.05,10.7 55.85,22.5 47.85,30.6 L47.85,30.6 Z" id="Shape" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

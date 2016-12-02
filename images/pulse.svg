@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="75px" height="52px" viewBox="0 0 75 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>pulse</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="9" cy="9" r="9"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="18" height="18" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <circle id="path-3" cx="9" cy="9" r="9"></circle>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="18" height="18" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Index" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="collection" transform="translate(-8548.000000, -11680.000000)">
+            <g id="demos" transform="translate(6445.000000, 10622.000000)">
+                <g id="Group-35">
+                    <g id="pulse" transform="translate(2103.000000, 1058.000000)">
+                        <path d="M11.5058334,35.9 L21.6058334,35.9 C22.8058334,35.9 23.8058334,35.1 24.1058334,34 L29.3058334,13.5 L37.2058334,49.4 C37.4058334,50.5 38.4058334,51.3 39.6058334,51.4 L39.7058334,51.4 C40.8058334,51.4 41.8058334,50.7 42.1058334,49.6 L48.3058334,29.4 L49.9058334,34.2 C50.2058334,35.2 51.2058334,35.9 52.3058334,35.9 L65.3058334,35.9 C66.7058334,35.9 67.8058334,34.8 67.8058334,33.4 C67.8058334,32 66.7058334,30.9 65.3058334,30.9 L54.2058334,30.9 L50.7058334,20.3 C50.4058334,19.3 49.4058334,18.5 48.3058334,18.6 C47.2058334,18.6 46.2058334,19.3 45.9058334,20.4 L40.2058334,39 L32.0058334,2 C31.7058334,0.9 30.7058334,0 29.6058334,0 C28.5058334,0 27.4058334,0.8 27.1058334,1.9 L19.7058334,30.8 L11.5058334,30.8 C10.1058334,30.8 9.0058334,31.9 9.0058334,33.3 C8.9058334,34.8 10.1058334,35.9 11.5058334,35.9 L11.5058334,35.9 Z" id="Shape" fill="#FFFFFF"></path>
+                        <g id="Group-8" transform="translate(57.000000, 23.000000)">
+                            <rect id="Rectangle-10" fill="#294061" x="3" y="2" width="12" height="12"></rect>
+                            <use id="Oval-2-Copy" stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="10" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="Group-8-Copy" transform="translate(0.000000, 23.000000)">
+                            <rect id="Rectangle-10" fill="#294061" x="4" y="2" width="12" height="12"></rect>
+                            <use id="Oval-2-Copy" stroke="#FFFFFF" mask="url(#mask-4)" stroke-width="10" xlink:href="#path-3"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
